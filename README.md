@@ -1,23 +1,22 @@
 # 21BCE1966_ML
 
-Document Retrieval Backend
+Get Documents Backend
 
-This repository contains the implementation of a document retrieval system designed to generate context for Large Language Models (LLMs) in chat applications.
+The development of a document retrieval system for chat apps that provides context for Large Language Models (LLMs) is available in this repository.
 
-Features
+Qualities
 
-Document Retrieval System: Efficient backend that allows retrieval of documents stored in a database.
-Cached Responses: Caches responses for faster retrieval and optimal system performance.
-Background Task: Scrapes news articles in a separate thread on server startup.
-Dockerized Application: The backend is containerized using Docker.
-Rate Limiting: Limits users to 5 requests before throwing an HTTP 429 error.
-API Logging: Logs API requests, including inference time for each request.
-Endpoints
+Document Retrieval System: Effective backend that makes it possible to retrieve documents kept in databases.
+Responses that have been cached are faster to retrieve and improve system performance.
+Background Task: Upon server starting, a separate thread is used to scrape news articles.
+Dockerized Application: Docker is used to containerize the backend.
+Rate Limiting: Provides a 5-request maximum before raising an HTTP 429 error for customers.
+Requests made to APIs are logged, along with the time it takes to interpret each request.
+Final Points
 
-/health: Checks if the API is active.
-/search: Returns the top search results based on query parameters like text, top_k, and threshold.
-Getting Started
+/health: Verifies the API's activation.
+Based on query parameters like text, top_k, and threshold, /search returns the top search results.
+Commencing
 
-Prerequisites
-Docker
-Python 3.x or Go
+Conditions precedents
+Python 3.x for Docker or
